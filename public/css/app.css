@@ -1,0 +1,165 @@
+.container {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container .card {
+  background-color: lightgray;
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.container .card .card-body {
+  display: flex;
+}
+
+.container .card .card-body .card-info {
+  padding: 10px;
+  width: 75%;
+}
+
+.container .card .card-body .card-info h5 {
+  font-size: 25px;
+}
+
+.container .card .card-body .card-buttons {
+  margin: auto 0;
+  height: 50px;
+  display: flex;
+}
+
+.container .card .card-body .card-buttons button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.container .card .card-body .card-buttons button:focus {
+  outline: none;
+}
+
+.container .welcome-buttons {
+  display: flex;
+  margin-top: 200px;
+  height: 250px;
+}
+
+.container .welcome-buttons button {
+  font-size: 50px;
+  width: 50%;
+  border-radius: 20px;
+  margin: 0 20px;
+  background: #de0c0c;
+  background: #de0c0c;
+  background: linear-gradient(172deg, #de0c0c 0%, #e579fa 0%, #89e9d6 43%, #ffeb00 100%);
+}
+
+.container .welcome-buttons button:first-child {
+  background: #de0c0c;
+  background: linear-gradient(172deg, #de0c0c 0%, #dbfa79 0%, #00d4ff 100%);
+}
+
+.container .alert-error {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+
+.container .alert-success {
+  text-align: center;
+  color: green;
+  font-size: 25px;
+}
+
+.container .back {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  border: 3px solid black;
+  background-color: #230052;
+}
+
+.form-edit-create {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: 4px solid #e6e6e6;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 100px;
+}
+
+.form-edit-create input,
+.form-edit-create select,
+.form-edit-create textarea {
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 0.25rem;
+  font: 1.25rem / 1.5 sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+.form-edit-create label {
+  display: inline-block;
+  font: bold 1.5rem sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.form-edit-create .btn {
+  margin-top: 40px;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.form-edit-create input[type="submit"] {
+  cursor: pointer;
+}
+
+.form-edit-create input[type="checkbox"] {
+  font-size: 2rem;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: lightgray;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.jumbotron button {
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.jumbotron button:focus {
+  outline: none;
+}
+
+.jumbotron button:hover,
+.jumbotron button:active {
+  background: #460897;
+  border: 1px solid #460897;
+}
