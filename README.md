@@ -1,13 +1,13 @@
 Steps:
-Clone this project - git clone https://github.com/oskarslejnieks/lasma_task_app.git
-Go to the application folder
-Run composer install
-Copy .env.example file to .env on the root folder.
-Open .env file and change database name, username, password to corresponding configuration
-Run php artisan key:generate
-Run php artisan migrate
-Run php artisan serve
-Go to http://localhost:8000/
+1. Clone this project - git clone https://github.com/oskarslejnieks/lasma_task_app.git
+2. Go to the application folder
+3. Run composer install
+4. Copy .env.example file to .env on the root folder.
+5. Open .env file and change database name, username, password to corresponding configuration
+6. Run php artisan key:generate
+7. Run php artisan migrate
+8. Run php artisan serve
+9. Go to http://localhost:8000/
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
